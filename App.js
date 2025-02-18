@@ -1,9 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
+import Title from "./src/components/Title/Title";
+import Main from "./src/components/Main/Main";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>CalculaIMC</Text>
+      <Title />
+      <Main />
     </View>
   );
 }

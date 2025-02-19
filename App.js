@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
-import Title from "./src/components/Title/Title";
-import Main from "./src/components/Main/Main";
+import Title from "./src/components/Title";
+import Main from "./src/components/Main";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#F5F5F5",
     alignItems: "center",
     justifyContent: "center",
   },

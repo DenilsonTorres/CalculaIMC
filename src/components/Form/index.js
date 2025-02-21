@@ -1,6 +1,7 @@
 import { View, Text, TextInput, TouchableOpacity } from "react-native";
 import React, { useState } from "react";
 import ResponseIMC from "./ResponseIMC";
+import styles from "./style";
 
 export default function Form() {
   const [weigth, setWeigth] = useState(null);
@@ -28,32 +29,35 @@ export default function Form() {
     }
     setImcStatus(null);
     setTextButton("Calcular");
-    setImcMessage("Preencha os campos: Peso e Altura!");
+    setImcMessage("Preencha os campos: Peso e Altura");
   }
 
   return (
-    <View>
-      <View>
-        <Text>Peso</Text>
+    <View style={styles.formContext}>
+      <View style={styles.forms}>
+        <Text style={styles.textLabel}>Peso</Text>
         <TextInput
           placeholder="Ex. 76.25"
           keyboardType="numeric"
           onChangeText={setWeigth}
           value={weigth}
+          style={styles.textInput}
         />
-        <Text>Altura</Text>
+        <Text style={styles.textLabel}>Altura</Text>
         <TextInput
           placeholder="Ex. 1.75"
           keyboardType="numeric"
           onChangeText={setHeight}
           value={heigth}
+          style={styles.textInput}
         />
         <TouchableOpacity
+          style={styles.buttonValidation}
           onPress={() => {
             imcValidation();
           }}
         >
-          <Text>{textButton}</Text>
+          <Text style={styles.textButton}>{textButton}</Text>
         </TouchableOpacity>
       </View>
 

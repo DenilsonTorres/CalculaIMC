@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Title from "./src/components/Title";
 import Main from "./src/components/Main";
 
@@ -15,7 +15,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#F5F5F5",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });

@@ -11,7 +11,7 @@ Um aplicativo simples para calcular o Índice de Massa Corporal (IMC) com base n
 ## 🛠️ Tecnologias Utilizadas
 - React Native
 - JavaScript
-- Styled Components (se aplicável)
+- Styled Components
 
 ## 🚀 Como Executar o Projeto
 

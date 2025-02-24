@@ -2,49 +2,53 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   formContext: {
-    alignItems: "center",
     width: "100%",
     height: "100%",
-    bottom: 0,
     borderTopLeftRadius: 30,
     borderTopRifhtRadius: 30,
     marginTop: 30,
+    alignItems: "center",
   },
+
   forms: {
     marginTop: 40,
     width: "100%",
     height: "auto",
-    alignItems: "center",
   },
-  textLabel: {
+
+  label: {
     color: "#2C3E50",
     fontSize: 25,
     fontWeight: "800",
-    
+    textAlign: "left",
+    paddingLeft: 20,
   },
+
   textInput: {
     width: "90%",
-    height: 50,
-    backgroundColor: "#1ABC9C",
+    height: 60,
+    backgroundColor: "#B9C3CC",
     color: "#2C3E50",
     fontSize: 16,
     borderRadius: 15,
     padding: 15,
-    marginTop: 10,
+    marginTop: 15,
     marginBottom: 10,
-
+    alignSelf: "center",
+    borderWidth: 1,
   },
 
   buttonValidation: {
     width: "90%",
-    height: 50,
+    height: 60,
     alignItems: "center",
-    backgroundColor: "#1ABC9C",
+    backgroundColor: "#F39C12",
     justifyContent: "center",
     borderRadius: 15,
     marginTop: 40,
     marginBottom: 20,
     borderWidth: 1,
+    alignSelf: "center",
   },
 
   textButton: {
@@ -52,7 +56,6 @@ const styles = StyleSheet.create({
     color: "#2C3E50",
     fontWeight: "800",
     borderColor: "#2C3E50",
-
   },
 });
 

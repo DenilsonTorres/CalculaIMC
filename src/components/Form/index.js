@@ -29,13 +29,12 @@ export default function Form() {
     }
     setImcStatus(null);
     setTextButton("Calcular");
-    setImcMessage("Preencha os campos: Peso e Altura");
   }
 
   return (
     <View style={styles.formContext}>
       <View style={styles.forms}>
-        <Text style={styles.textLabel}>Peso</Text>
+        <Text style={styles.label}>Peso</Text>
         <TextInput
           placeholder="Ex. 76.25"
           keyboardType="numeric"
@@ -43,7 +42,7 @@ export default function Form() {
           value={weigth}
           style={styles.textInput}
         />
-        <Text style={styles.textLabel}>Altura</Text>
+        <Text style={styles.label}>Altura</Text>
         <TextInput
           placeholder="Ex. 1.75"
           keyboardType="numeric"

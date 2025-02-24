@@ -5,15 +5,16 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     alignItems: "center",
-    padding: 50,
-    backgroundColor: "#1ABC9C",
+    padding: 40,
+    backgroundColor: "#F39C12",
     borderBottomLeftRadius: 15,
     borderBottomRightRadius: 15,
   },
   textTitle: {
-    fontSize: 50,
+    fontSize: 60,
     color: "#2C3E50",
     fontWeight: "900",
+
   },
 
 });

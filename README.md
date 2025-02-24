@@ -6,7 +6,6 @@ Um aplicativo simples para calcular o Índice de Massa Corporal (IMC) com base n
 
 ## 📌 Funcionalidades
 - Inserir peso e altura para cálculo do IMC
-- Exibir classificação do IMC (baixo peso, normal, sobrepeso, etc.)
 - Interface simples e intuitiva
 
 ## 🛠️ Tecnologias Utilizadas
@@ -36,9 +35,6 @@ Um aplicativo simples para calcular o Índice de Massa Corporal (IMC) com base n
    # ou
    yarn start
    ```
-
-## 📷 Demonstração
-(Adicione prints do app funcionando ou um link para um vídeo de demonstração)
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo!
